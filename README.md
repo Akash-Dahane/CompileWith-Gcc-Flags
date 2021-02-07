@@ -45,11 +45,16 @@ Example: gcc -o compile compiler.c
 Note: Naming compile is optional, you can use another.
 
 Move the executable file(compile) at location /usr/local/bin
-Example: sudo cp /path/to/the/folder/of/compile/file  /usr/local/bin
-This is to make it accessible from anywhere in the terminal just like gcc/g++ .
 
+
+Example: sudo cp /path/to/the/folder/of/compile/file  /usr/local/bin
+
+
+This is to make it accessible from anywhere in the terminal just like gcc/g++ .
 Now compile your program with simple syntax below. 
-compile myProgram.cpp
+
+
+Example: compile myProgram.cpp
 
 
 Note: 
