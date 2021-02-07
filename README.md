@@ -43,14 +43,16 @@ Example: gcc -o compile compiler.c
 
 
 Note: Naming compile is optional, you can use another.
-Now compile your program with simple syntax below.
+
+Move the executable file(compile) at location /usr/local/bin
+Example: sudo cp /path/to/the/folder/of/compile/file  /usr/local/bin
+This is to make it accessible from anywhere in the terminal just like gcc/g++ .
+
+Now compile your program with simple syntax below. 
+compile myProgram.cpp
 
 
-./compile myProgram.cpp
+Note: 
 
-
-Note: Always keep compile (executable file) in same directory as your program to be compiled. To avoid writing full path for the executable.
-Yup, we are done.
-
-Also, if you want to add or remove flags, check comments in program code and modify necessary parts and then recompile.
+Also, if you want to add or remove flags, check comments in program code and modify necessary parts and then recompile and overwrite the file you saved in /urs/bin/bash .
 Link which helped me write correct code: https://stackoverflow.com/questions/65446902/execv-system-call-not-running-as-desired/65454426#65454426
