@@ -1,6 +1,5 @@
 # CompileWith-Gcc-Flags
-Before summarizing this fix, I will give a short description
-on how and why I came up with it.
+
 
 As a Linux user, I use Linux terminal strictly for programming purpose.
 While solving problems in Competitive Programming, I use C++/C as programming language
